@@ -1,0 +1,268 @@
+@import './tamplate';
+
+// First page
+.about {
+    .header {
+        .header-text {
+            display: flex;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../assets/browser.png);
+            background-repeat: no-repeat;
+            color: #000;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            .header-text-VR {
+                opacity: 0.5;
+            }
+        }
+    }
+    .logo-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 74px 0 76px;
+    }
+    .about__content {
+        display: flex;
+        .about__content-text {
+            width: 670px;
+            padding: 76px 0 80px 126px;
+            .about__subtitle {
+                width: 487px;
+                padding-top: 10px;
+            }
+            .about__button_buy {
+                margin-top: 30px;
+                width: 270px;
+                height: 84px;
+                color: #FFF;
+                font-family: Intro;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                gap: 17px;
+            }
+            .about__nav {
+                margin: 146px 0 0 10px;
+                .about__nav-items {
+                    text-decoration: none;
+                    color: #5222D0;
+                }
+            }
+        }
+        .about__content-picture {
+            .about__guy {
+                padding: 50px 0 0 47px;
+                z-index: 1;
+            }
+            .about__background {
+                position: absolute;
+                z-index: -1;
+            }
+        }
+    }
+    
+}
+
+// Second page
+.possibilities {
+    .header {
+        .header-text {
+            display: flex;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../assets/browser.png);
+            background-repeat: no-repeat;
+            color: #000;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            .header-text-VR {
+                opacity: 0.5;
+            }
+        }
+    }
+    .logo-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 74px 0 76px;
+    }
+    .possibilities__title {
+        margin: 89px 0 0 125px;
+    }
+    .possibilities__cardrow1 {
+        display: flex;
+        margin: 14px 72px 0 92px;
+        .possibilities__cardrow-item {
+            width: 440px;
+            height: 550px;
+            flex-shrink: 0;
+            .possibilities__cardrow-background {
+                width: 365px;
+                height: 233px;
+                flex-shrink: 0;
+                margin: 26px 40px 0 35px;
+                background: #EC615B;
+                z-index: -1;
+                position: absolute;
+            }
+            .possibilities__cardrow-img {
+                z-index: 1;
+                margin: 41px 0 0 70px;
+            }
+            .possibilities__cardrow-title {
+                margin: 23px 42px 10px 33px;
+            }
+            .possibilities__cardrow-text {
+                width: 365px;
+                margin: 10px 42px 25px 33px;
+            }
+        }
+        .possibilities__cardrow-item_bordered {
+            border: 1px solid #BB2247;
+        }
+    }
+    .possibilities__cardrow2 {
+        display: flex;
+        margin: 0 0 0 80px;
+        .possibilities__cardrow2-item {
+            width: 436px;
+            height: 259px;
+            flex-shrink: 0;
+            .possibilities__cardrow2-title {
+                padding: 25px 0 0 45px;
+            }
+            .possibilities__cardrow2-text {
+                padding: 10px 0 0 45px;
+                width: 380px;
+            }
+        }
+        .possibilities__cardrow-item_bordered {
+            border: 1px solid #BB2247;
+        }
+        .possibilities__cardrow2-newsbox {
+            margin: 0 72px 0 0;
+            width: 365px;
+            height: 233px;
+            flex-shrink: 0;
+            background: #EC615B;
+            .possibilities__newsbox-title {
+                margin: 25px 0 0 18px;
+                color: #FFF;
+                font-family: Intro;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 120%;
+            }
+            .possibilities__emailbox {
+                margin: 6px 0 0 20px;
+                width: 323px;
+                height: 50px;
+                flex-shrink: 0;
+                border: none;
+            }
+            ::placeholder {
+                padding: 9px 0 0 14px;
+                color:#000;
+                font-family: Roboto Slab;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 160%;
+            }
+            .button-subscribe {
+                margin: 23px 0 0 18px;
+                width: 135px;
+                height: 38px;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Intro;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    .possibilities__nav {
+        margin: 86px 0 80px 126px;
+        .possibilities__nav-items {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+// Button common block
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5222D0;
+    border-radius: 15em;
+    border: #5222D0;
+    flex-shrink: 0;
+}
+
+// Button busket block
+.button-busket {
+    width: 115px;
+    height: 38px;
+    color: #FFF;
+    font-family: Intro ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 5px;
+}
+
+// Title block
+.title {
+    color: #000;
+    font-family: Intro ;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+// Navbar block
+.navbar {
+    display: flex;
+    gap: 34px;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+// Cardrow-title block
+.cardrow-title {
+    color: #000;
+    font-family: Intro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+// Subtitle-text block
+.subtitle-text {
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
